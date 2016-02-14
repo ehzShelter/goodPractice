@@ -53,13 +53,13 @@ void summation(void)
     float arr[howMany];
 
     printf("enter the values: ");
-    for (int i = 0; i < howMany; i++)
+    for (size_t i = 0; i < howMany; i++)
     {
          scanf("%f", &arr[i]);
     }
 
     float Sum = 0;
-    for (int i = 0; i < howMany; i++)
+    for (size_t i = 0; i < howMany; i++)
     {
          Sum = Sum + arr[i];
     }
@@ -94,13 +94,13 @@ void multiplication(void)
     scanf("%zd", &howMany);
     float arr[howMany];
     printf("enter the values: ");
-    for (int i = 0; i < howMany; i++)
+    for (size_t i = 0; i < howMany; i++)
     {
         scanf("%f", &arr[i]);
     }
     float multi = 1.00;
 
-    for (int i = 0; i < howMany; i++)
+    for (size_t i = 0; i < howMany; i++)
     {
         multi = multi * arr[i];
     }
